@@ -22,24 +22,24 @@ const Header = () => {
         },
         
         {
-            name:"Research Groups",
-            href:"/research-groups"
+            name:"Staff",
+            href:"/staff"
         },
         {
-            name:"Programmers",
-            href:"/programmers"
+            name:"Gallery",
+            href:"/gallery"
         },
         {
-            name:"Technical Team",
-            href:"/tech-team"
+            name:"History",
+            href:"/history"
         },
         {
-            name:"Tips",
-            href:"/tips"
+            name:"Resources",
+            href:"/resources"
         },
         {
-            name:"Social",
-            href:"/social"
+            name:"People",
+            href:"/people"
         },
         {
             name:"Contact",
