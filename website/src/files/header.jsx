@@ -9,17 +9,18 @@ const Header = () => {
             href:"/"
         },
         {
-            name:"Faculty",
-            href:"/faculty"
+            name:"About",
+            href:"/about"
         },
         {
             name:"Events",
             href:"/events"
         },
         {
-            name:"About",
-            href:"/about"
+            name:"Alumni",
+            href:"/alumni"
         },
+        
         {
             name:"Research Groups",
             href:"/research-groups"
@@ -58,7 +59,7 @@ const Header = () => {
             {
                 navigation_of_header.map(nav => {
                     return (
-                            <Link key={nav.name} className="nav-links" href={nav.href}>{nav.name}</Link>
+                            <Link key={nav.name} className="nav-links" to={nav.href}>{nav.name}</Link>
                     )
                 })
             }
@@ -67,7 +68,7 @@ const Header = () => {
             {
                 navigation_of_header.map(nav => {
                     return (
-                            <Link className="nav-links" href={nav.href}>{nav.name}</Link>
+                            <Link className="nav-links" to={nav.href}>{nav.name}</Link>
                     )
                 })
             }

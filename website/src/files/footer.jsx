@@ -19,27 +19,7 @@ export default function Footer() {
            }
        ]
      },
-        {title:"Admissions",
-         links:[
-            {
-                name:"Undergraduate",
-                href:"#"
-            },
-
-            {
-                name:"International Students",
-                href:"#"
-            },
-            {
-                name:"Entry Requirements",
-                href:"#"
-            },
-            {
-                name:"Contact Us",
-                href:"#"
-            },
-        ]
-      },
+       
         {title:"Research",
          links:[
             {
@@ -53,50 +33,16 @@ export default function Footer() {
             }
         ]
       },
-      {title:"Academics",
-         links:[
-            {
-                name:"Undergraduate Courses",
-                href:"#"
-            },
-            {
-                name:"Graduate Courses(MPhil Computer Science)",
-                href:"#"
-            },
-
-            {
-                name:"Graduate Courses(PhD)",
-                href:"#"
-            },
-            {
-                name:"Academic Calendar",
-                href:"#"
-            },
-        ]
-      },
+ 
        
         
     ]
   return (
     <div className='main footer flex'>
-        {
-          footer.map((nav) => {
-            return (
+
               <div className='footer-column'>
-                  <h1 className='title-text' style={{margin:"20px 5px ",textAlign:"left"}}>{nav.title}</h1>
-                  <ul>
-                      {
-                        nav.links.map(nav => {
-                          return (
-                               <li className='link'><a className="link" href={nav.href}>{nav.name}</a></li>
-                          )
-                        })
-                      }
-                  </ul>
+                  <h1 className='title-text' style={{margin:"20px 5px ",textAlign:"left"}}>University of Ghana @ 2023</h1>
                </div>
-            )
-          })
-        }
 
     </div>
   )
