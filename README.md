@@ -17,7 +17,8 @@ It is quite obvious that the university of ghana computer science website is bec
 ![image](https://github.com/1Lifeofsilas/DCIT_205_IA/assets/152170969/919ddd82-115f-4797-9583-1252817413dc)
 ![image](https://github.com/1Lifeofsilas/DCIT_205_IA/assets/152170969/96a40dba-a99c-491d-a082-f3217006035e)
 ![image](https://github.com/1Lifeofsilas/DCIT_205_IA/assets/152170969/48eace2f-1011-48bd-b4b8-1206a8bb0cb2)
-![Uploading image.png…]()
+![image](https://github.com/1Lifeofsilas/DCIT_205_IA/assets/152170969/236c36f8-13b3-4186-9aa6-65dca0d06c94)
+
 
 
 
